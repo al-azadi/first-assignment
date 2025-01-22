@@ -1,0 +1,57 @@
+.work-sans-normal {
+    font-family: "Work Sans", serif;
+    font-optical-sizing: auto;
+    font-variation-settings: "wdth" 100;
+    font-style: normal;
+  }
+
+/* shared style */
+.btn-p:hover{
+    background-color: #175f24;
+    color: #df2c2c;
+}
+.btn-p{
+    background-color: white;
+    font-weight: bold;
+    color: #085616;
+    padding: 10px 30px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+
+
+
+
+
+  /* nav styles */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 24px 160px;
+}
+.n-t{
+    font-weight: 600;
+    font-size: 20px;
+}    
+
+/* banner styles */
+h1{
+    font-size: 40px;
+}
+h4{
+    font-size: 20px;
+    font-weight: 600;
+    color: darkgrey;
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 80px;
+    background-color: #C6E4D6;
+}
+.b-c{
+    margin-right: 64px;
+    max-width: 400px;
+}
