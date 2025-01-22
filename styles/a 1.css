@@ -6,10 +6,15 @@
   }
 
 /* shared style */
+h4{
+    font-size: 20px;
+    font-weight: 600;
+    color: darkgrey;
+}
 .secondery-bg{
     background-color: #F1F1F3;
 }
-.btn-p:hover{
+.btn:hover{
     background-color: #175f24;
     color: #df2c2c;
 }
@@ -59,11 +64,6 @@ header{
 }
 h1{
     font-size: 40px;
-}
-h4{
-    font-size: 20px;
-    font-weight: 600;
-    color: darkgrey;
 }
 .banner{
     display: flex;
@@ -128,9 +128,94 @@ h4{
 }
 .a{
     background-color: blanchedalmond;
-}.b{
+}
+.b{
     background-color: tomato;
 }
 .c{
-    background-color: saddlebrown;
+    background-color: rgb(175, 91, 30);
 }
+.btn-a:hover{
+    background-color: rgb(232, 171, 79);
+    color: white;
+}
+.btn-a{
+    background-color: white;
+    font-weight: bold;
+    color: rgb(232, 171, 79);
+    padding: 10px 30px;
+    border-radius: 5px;
+    font-size: 15px;
+    border: #a8ceaf;
+}
+.btn-b:hover{
+    background-color: rgb(205, 115, 100);
+    color: white;
+}
+.btn-b{
+    background-color: white;
+    font-weight: bold;
+    color: rgb(205, 115, 100);
+    padding: 10px 30px;
+    border-radius: 5px;
+    font-size: 15px;
+    border: #a8ceaf;
+}
+.btn-c:hover{
+    background-color: rgb(197, 117, 60);
+    color: white;
+}
+.btn-c{
+    background-color: white;
+    font-weight: bold;
+    color: rgb(197, 117, 60);
+    padding: 10px 30px;
+    border-radius: 5px;
+    font-size: 15px;
+    border: #a8ceaf;
+}
+
+
+/* quote styles */
+.quote{
+    margin: 70px 25px;
+    background-color: white;
+    padding: 100px 80px;
+}
+.q-d{
+    font-size: 20px;
+    gap: 5px;
+    background-image: url('../assets/quote-bg.png');
+    background-repeat: no-repeat;
+}
+.q-p{
+    font-size: 35px;
+}
+
+
+/* question styles */
+.s1{
+    border: 5px solid black;
+    padding: 24px;
+    background-color: #C6E4D6;
+}
+.td{
+    border: 1px solid black;
+    padding: 20px 20px;
+}
+.ss{
+    border-collapse: collapse;
+    padding: 24px;
+}
+.table{
+    background-color: white;
+    padding: 100px 80px;
+    max-width: 1000px;
+}
+.opn{
+    margin: 120px;
+}
+.o-h{
+    font-size: 45px;
+}
+
